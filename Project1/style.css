@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(182, 189, 196);
+  min-height: 100vh;
+  border: 10px solid black;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+}
+
+/* .image_container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_container,
+img {
+  width: 350px;
+  height: 300px;
+} */
+
+.image_container {
+  width: 350px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_container img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.about_section {
+  margin-top: 50px;
+}
+
+.about_section h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.points_section {
+  margin: 50px 0;
+  max-width: 800px;
+}
+
+.points_section h3 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.points_section ol {
+  margin-left: 40px;
+  text-align: justify;
+}
+
+.points_section li {
+  margin-bottom: 12px;
+  padding-left: 10px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.points_section li::marker {
+  font-weight: bold;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer p {
+  text-align: end;
+}
